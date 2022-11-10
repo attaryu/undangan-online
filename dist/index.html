@@ -18,16 +18,20 @@
 	</head>
 	<body>
 		<!-- header start -->
-		<header class="h-screen w-full px-4 py-3">
-			<h1 class="mb-3 text-center font-outfit-bold text-2xl">Wedding of</h1>
-			<div class="relative grid h-[85%] w-full place-items-center">
+		<header class="h-screen w-full px-4 py-3 md:px-10 md:py-5 xl:px-16">
+			<h1
+				class="mb-3 text-center font-outfit-bold text-2xl md:mb-5 md:text-3xl"
+			>
+				Wedding of
+			</h1>
+			<div class="relative grid h-[85%] w-full place-items-center shadow-lg">
 				<img
 					src="./asset/image/wedding-ring.jpg"
 					alt="Wedding ring"
-					class="absolute -z-10 h-full object-cover brightness-75"
+					class="absolute -z-10 h-full object-cover brightness-50 xl:w-full"
 				/>
 				<h1
-					class="after:contents-[''] font-rage-italic text-4xl text-white after:block after:h-[2px] after:w-full after:bg-white"
+					class="after:contents-[''] font-rage-italic text-4xl text-white after:block after:h-[2px] after:w-full after:bg-white md:text-6xl md:after:h-[3.5px]"
 				>
 					Edo & Ela
 				</h1>
@@ -38,29 +42,31 @@
 		<!-- main start -->
 		<main>
 			<!-- quote start -->
-			<section class="w-full py-16 px-5">
+			<section
+				class="w-full py-16 px-5 md:mb-10 md:flex md:items-center md:gap-3 md:px-10 xl:justify-center xl:gap-32 xl:px-16"
+			>
 				<!-- photo -->
 				<img
 					src="./asset/image/image-5.jpg"
 					alt="Edo & Ela in sunset"
-					class="aspect-square w-full object-cover"
+					class="aspect-square w-full object-cover shadow-xl transition duration-500 md:w-2/6 xl:hover:-translate-y-2 xl:hover:shadow-2xl xl:hover:brightness-75"
 				/>
-				<div class="mt-5">
+				<div class="mt-5 xl:w-1/3">
 					<div class="flex w-full items-center justify-center gap-4">
 						<span class="block h-[1.9px] w-1/5 bg-zinc-800"></span>
 						<i class="fa-solid fa-book-open text-xs text-zinc-800"></i>
 						<span class="block h-[1.9px] w-1/5 bg-zinc-800"></span>
 					</div>
-					<figure class="mt-7">
+					<figure class="mt-7 md:mt-5">
 						<p
-							class="text-center font-josefin-slab-semibold-italic text-sm leading-5"
+							class="text-center font-josefin-slab-semibold-italic text-sm leading-5 md:text-base xl:text-lg"
 						>
 							"Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 							nsequatur, nemo"
 						</p>
 
 						<figcaption
-							class="mt-5 text-center font-josefin-slab-semibold text-xs text-zinc-600"
+							class="mt-5 text-center font-josefin-slab-semibold text-xs text-zinc-600 md:mt-7 md:text-sm xl:text-base"
 						>
 							Someone
 						</figcaption>
@@ -71,24 +77,26 @@
 
 			<!-- bride start -->
 			<section
-				class="relative flex w-full flex-col gap-5 bg-green-pastel px-5 py-16"
+				class="relative flex w-full flex-col gap-5 bg-green-pastel px-5 py-16 md:flex-row md:py-20 md:px-10 xl:gap-10 xl:px-24"
 			>
 				<!-- img bg -->
 				<img
 					src="./asset/bg/splash-3.png"
 					alt=""
-					class="absolute left-0 -top-2 -z-10 h-20 object-cover"
+					class="absolute left-0 -top-2 -z-10 h-20 object-cover md:h-24 xl:-top-4 xl:h-64"
 				/>
 
 				<!-- man family -->
 				<section
-					class="flex aspect-square w-full flex-col items-center justify-center bg-white shadow-lg"
+					class="flex aspect-square w-full flex-col items-center justify-center bg-white shadow-md transition duration-500 xl:hover:-translate-y-3 xl:hover:shadow-lg"
 				>
-					<h3 class="font-rage-italic text-5xl leading-8 text-zinc-900">
+					<h3
+						class="font-rage-italic text-5xl leading-8 text-zinc-900 md:text-6xl xl:text-7xl"
+					>
 						Edo
 					</h3>
 					<p
-						class="before:contents-[''] mt-3 grid place-items-center text-center font-outfit-semibold text-sm before:mb-2 before:block before:h-[2px] before:w-[115%] before:bg-zinc-900"
+						class="before:contents-[''] mt-3 grid place-items-center text-center font-outfit-semibold text-sm before:mb-2 before:block before:h-[2px] before:w-[115%] before:bg-zinc-900 md:text-sm"
 					>
 						Putra dari Bapak <br />
 						Erlangga & Ibu Rini
@@ -97,13 +105,15 @@
 
 				<!-- woman family -->
 				<section
-					class="flex aspect-square w-full flex-col items-center justify-center bg-white shadow-lg"
+					class="flex aspect-square w-full flex-col items-center justify-center bg-white shadow-md transition duration-500 xl:hover:-translate-y-3 xl:hover:shadow-lg"
 				>
-					<h3 class="font-rage-italic text-5xl leading-8 text-zinc-900">
+					<h3
+						class="font-rage-italic text-5xl leading-8 text-zinc-900 md:text-6xl xl:text-7xl"
+					>
 						Ela
 					</h3>
 					<p
-						class="before:contents-[''] mt-3 grid place-items-center text-center font-outfit-semibold text-sm before:mb-2 before:block before:h-[2px] before:w-[115%] before:bg-zinc-900"
+						class="before:contents-[''] mt-3 grid place-items-center text-center font-outfit-semibold text-sm before:mb-2 before:block before:h-[2px] before:w-[115%] before:bg-zinc-900 md:text-sm"
 					>
 						Putri dari Bapak <br />
 						Budi & Ibu Budi
@@ -114,58 +124,62 @@
 				<img
 					src="./asset/bg/splash-3.png"
 					alt=""
-					class="absolute left-0 -bottom-3 -z-10 h-20 rotate-180 object-cover"
+					class="absolute left-0 -bottom-3 -z-10 h-20 rotate-180 object-cover md:h-24 xl:-bottom-4 xl:h-64"
 				/>
 			</section>
 			<!-- bride end -->
 
 			<!-- time start -->
-			<section class="py-16 px-5">
-				<h2 class="text-center font-outfit-bold text-xl text-brown-pastel">
+			<section class="py-16 px-5 md:px-10 md:py-20">
+				<h2
+					class="text-center font-outfit-bold text-xl text-brown-pastel md:text-4xl"
+				>
 					Save the date
 				</h2>
-				<div class="mt-5 flex w-full justify-between gap-3">
+				<div
+					class="mt-5 flex w-full justify-between gap-3 md:mt-16 md:justify-evenly md:gap-10 xl:justify-center xl:gap-16"
+				>
 					<!-- day -->
 					<div
-						class="grid aspect-square w-full grid-rows-3 rounded-md bg-brown-pastel p-2"
+						class="grid aspect-square w-full grid-rows-3 rounded-md bg-brown-pastel p-2 md:w-3/12 md:p-5 xl:w-1/6 xl:p-6"
 					>
 						<h3
-							class="justify-self-center font-outfit-semibold text-sm text-white"
+							class="justify-self-center font-outfit-semibold text-sm text-white md:text-2xl xl:text-3xl"
 						>
 							Hari
 						</h3>
 						<time
-							class="row-span-2 self-end justify-self-center font-outfit-bold text-2xl text-white"
+							class="row-span-2 self-end justify-self-center font-outfit-bold text-2xl text-white md:text-5xl xl:text-6xl"
 							>03</time
 						>
 					</div>
 
 					<!-- hour -->
 					<div
-						class="grid aspect-square w-full grid-rows-3 rounded-md bg-brown-pastel p-2"
+						class="grid aspect-square w-full grid-rows-3 rounded-md bg-brown-pastel p-2 md:w-3/12 md:p-5 xl:w-1/6 xl:p-6"
 					>
 						<h3
-							class="justify-self-center font-outfit-semibold text-sm text-white"
+							class="justify-self-center font-outfit-semibold text-sm text-white md:text-2xl xl:text-3xl"
 						>
 							Jam
 						</h3>
 						<time
-							class="row-span-2 self-end justify-self-center font-outfit-bold text-2xl text-white"
+							class="row-span-2 self-end justify-self-center font-outfit-bold text-2xl text-white md:text-5xl xl:text-6xl"
 							>15</time
 						>
 					</div>
 
 					<!-- second -->
 					<div
-						class="grid aspect-square w-full grid-rows-3 rounded-md bg-brown-pastel p-2"
+						class="grid aspect-square w-full grid-rows-3 rounded-md bg-brown-pastel p-2 md:w-3/12 md:p-5 xl:w-1/6 xl:p-6"
 					>
 						<h3
-							class="justify-self-center font-outfit-semibold text-sm text-white"
+							class="justify-self-center font-outfit-semibold text-sm text-white md:text-2xl xl:text-3xl"
 						>
 							Detik
 						</h3>
 						<time
-							class="row-span-2 self-end justify-self-center font-outfit-bold text-2xl text-white"
+							class="row-span-2 self-end justify-self-center font-outfit-bold text-2xl text-white md:text-5xl xl:text-6xl"
 							>48</time
 						>
 					</div>
@@ -174,25 +188,35 @@
 			<!-- time end -->
 
 			<!-- address session start -->
-			<section class="py-16 px-5">
+			<section class="py-16 px-5 md:px-10 md:py-20 xl:flex xl:px-20">
 				<!-- session 1 -->
 				<section
-					class="flex aspect-square w-full flex-col items-center justify-center bg-green-pastel"
+					class="flex aspect-square w-full flex-col items-center justify-center bg-green-pastel xl:p-8"
 				>
 					<!-- session name -->
-					<h2 class="mb-4 font-rage-italic text-4xl">Akad Nikah</h2>
+					<h2
+						class="mb-4 font-rage-italic text-4xl md:mb-14 md:text-7xl xl:text-6xl"
+					>
+						Akad Nikah
+					</h2>
 
 					<!-- session date -->
-					<time datetime="2022-11-11" class="font-outfit-medium text-xs"
+					<time
+						datetime="2022-11-11"
+						class="font-outfit-medium text-xs md:text-lg xl:text-sm"
 						>Sabtu, 11 November 2022</time
 					>
 
 					<!-- session location -->
-					<p class="mt-2 mb-2 font-outfit-extrabold">Hotel Valency</p>
+					<p
+						class="mt-2 mb-2 font-outfit-extrabold md:mt-4 md:mb-4 md:text-3xl xl:text-2xl"
+					>
+						Hotel Valency
+					</p>
 
 					<!-- session address -->
 					<address
-						class="w-4/5 text-center font-outfit-medium text-xs not-italic"
+						class="w-4/5 text-center font-outfit-medium text-xs not-italic md:text-lg xl:text-sm"
 					>
 						Jl. Raya Darmo, DR. Soetomo, Kec. Tegalsari, Kota SBY, Jawa
 						Timur 6xxx
@@ -201,7 +225,7 @@
 					<!-- session location tracker -->
 					<a
 						href="#"
-						class="mt-7 rounded-md bg-zinc-900 py-2 px-4 font-outfit-bold text-xs text-green-fade"
+						class="mt-7 rounded-md bg-zinc-900 py-1.5 px-3 font-outfit-bold text-xs text-green-fade transition duration-300 md:mt-10 md:text-lg xl:text-sm xl:hover:bg-zinc-700"
 					>
 						<i class="fa-solid fa-location-dot mr-2.5"></i>
 						View Location
@@ -210,22 +234,32 @@
 
 				<!-- session 2 -->
 				<section
-					class="flex aspect-square w-full flex-col items-center justify-center bg-green-fade"
+					class="flex aspect-square w-full flex-col items-center justify-center bg-green-fade xl:p-8"
 				>
 					<!-- session name -->
-					<h2 class="mb-4 font-rage-italic text-4xl">Iring Iringan</h2>
+					<h2
+						class="mb-4 font-rage-italic text-4xl md:mb-14 md:text-7xl xl:text-6xl"
+					>
+						Iring Iringan
+					</h2>
 
 					<!-- session date -->
-					<time datetime="2022-11-12" class="font-outfit-medium text-xs"
+					<time
+						datetime="2022-11-12"
+						class="font-outfit-medium text-xs md:text-lg xl:text-sm"
 						>Minggu, 12 November 2022</time
 					>
 
 					<!-- session location -->
-					<p class="mt-2 mb-2 font-outfit-extrabold">Hotel Valency</p>
+					<p
+						class="mt-2 mb-2 font-outfit-extrabold md:mt-4 md:mb-4 md:text-3xl xl:text-2xl"
+					>
+						Hotel Valency
+					</p>
 
 					<!-- session address -->
 					<address
-						class="w-4/5 text-center font-outfit-medium text-xs not-italic"
+						class="w-4/5 text-center font-outfit-medium text-xs not-italic md:text-lg xl:text-sm"
 					>
 						Jl. Raya Darmo, DR. Soetomo, Kec. Tegalsari, Kota SBY, Jawa
 						Timur 6xxx
@@ -234,7 +268,7 @@
 					<!-- session location tracker -->
 					<a
 						href="#"
-						class="mt-7 rounded-md bg-zinc-900 py-2 px-4 font-outfit-bold text-xs text-green-fade"
+						class="mt-7 rounded-md bg-zinc-900 py-1.5 px-3 font-outfit-bold text-xs text-green-fade transition duration-300 md:mt-10 md:text-lg xl:text-sm xl:hover:bg-zinc-700"
 					>
 						<i class="fa-solid fa-location-dot mr-2.5"></i>
 						View Location
@@ -244,65 +278,75 @@
 			<!-- address session end -->
 
 			<!-- gallery start -->
-			<section class="relative mt-10 bg-brown-pastel py-16 px-5">
+			<section
+				class="relative mt-10 bg-brown-pastel py-16 px-5 md:px-10 md:py-20 xl:px-32"
+			>
 				<img
 					src="./asset/bg/splash-4.png"
 					alt=""
-					class="absolute -top-2 left-0 -z-10 h-20 object-cover"
+					class="absolute -top-2 left-0 -z-10 h-20 object-cover md:h-32 xl:-top-4 xl:h-64"
 				/>
 
-				<h2 class="text-center font-outfit-bold text-xl text-white">
+				<h2
+					class="text-center font-outfit-bold text-xl text-white md:text-4xl"
+				>
 					Gallery
 				</h2>
 
 				<!-- bride photo gallery -->
-				<div class="mt-5 grid grid-cols-2 grid-rows-4 gap-2">
+				<div
+					class="mt-5 grid grid-cols-2 grid-rows-4 gap-2 md:mt-10 md:gap-6 xl:mt-12 xl:grid-cols-4 xl:grid-rows-2 xl:gap-3"
+				>
 					<img
 						src="./asset/image/image-4.jpg"
 						alt=""
-						class="aspect-square h-full object-cover"
+						class="aspect-square h-full object-cover transition duration-500 xl:hover:brightness-50"
 					/>
 					<img
 						src="./asset/image/image-2.jpg"
 						alt=""
-						class="row-span-2 aspect-square h-full object-cover"
+						class="row-span-2 aspect-square h-full object-cover transition duration-500 xl:hover:brightness-50"
 					/>
 					<img
 						src="./asset/image/image-3.jpg"
 						alt=""
-						class="aspect-square h-full object-cover"
+						class="aspect-square h-full object-cover transition duration-500 xl:col-start-4 xl:hover:brightness-50"
 					/>
 					<img
 						src="./asset/image/image-1.jpg"
 						alt=""
-						class="row-span-2 aspect-square h-full object-cover"
+						class="row-span-2 aspect-square h-full object-cover transition duration-500 xl:col-start-3 xl:row-start-1 xl:hover:brightness-50"
 					/>
 					<img
 						src="./asset/image/image-5.jpg"
 						alt=""
-						class="aspect-square h-full object-cover"
+						class="aspect-square h-full object-cover transition duration-500 xl:hover:brightness-50"
 					/>
 					<img
 						src="./asset/image/image-6.jpg"
 						alt=""
-						class="aspect-square h-full object-cover"
+						class="aspect-square h-full object-cover transition duration-500 xl:hover:brightness-50"
 					/>
 				</div>
 
 				<img
 					src="./asset/bg/splash-4.png"
 					alt=""
-					class="absolute -bottom-2 left-0 -z-10 h-20 object-cover"
+					class="absolute -bottom-2 left-0 -z-10 h-20 object-cover md:h-32 xl:-bottom-5 xl:h-64"
 				/>
 			</section>
 			<!-- gallery end -->
 
 			<!-- blessing start -->
-			<section class="flex flex-col items-center py-20 px-5">
-				<h2 class="text-center font-outfit-bold text-xl">
+			<section
+				class="flex flex-col items-center py-20 px-5 md:px-10 md:py-20 xl:px-64 xl:py-32"
+			>
+				<h2 class="text-center font-outfit-bold text-xl md:text-4xl">
 					Online Blessing
 				</h2>
-				<p class="mt-3 text-center font-outfit text-sm">
+				<p
+					class="mt-3 text-center font-outfit text-sm md:mt-5 md:text-lg xl:text-base"
+				>
 					Hopefully this limitation does not reduce happiness for both of
 					us and does not eliminate the blessings from all of you. Your
 					prayer for our marriageis the greatest gift of all.
@@ -310,7 +354,7 @@
 
 				<a
 					href="#"
-					class="mt-10 inline-block rounded-md bg-zinc-900 px-4 py-2 text-center font-outfit-bold text-xs text-white"
+					class="mt-10 inline-block rounded-md bg-zinc-900 px-3 py-1.5 text-center font-outfit-semibold text-xs text-white transition duration-500 md:text-lg xl:mt-16 xl:text-sm xl:hover:bg-zinc-700"
 				>
 					<i class="fa-solid fa-gift mr-2.5"></i>
 					Send Gift
@@ -320,20 +364,24 @@
 
 			<!-- RSVP start -->
 			<section
-				class="relative w-full bg-gradient-to-b from-green-pastel to-green-fade pt-16 pb-20"
+				class="relative w-full bg-gradient-to-b from-green-pastel to-green-fade pt-16 pb-20 xl:pb-52 xl:pt-24"
 			>
 				<img
 					src="./asset/bg/splash-3.png"
 					alt=""
-					class="absolute -top-2 -left-1 -z-10 h-20 object-cover"
+					class="absolute -top-2 -left-1 -z-10 h-20 object-cover xl:h-52"
 				/>
 
 				<!-- RSVP -->
-				<div class="w-full px-5">
-					<form class="m-auto mt-4 w-full bg-white p-5 shadow-lg">
-						<h2 class="text-center font-outfit-bold text-xl">RSVP</h2>
+				<div class="w-full px-5 md:px-10 xl:px-56">
+					<form class="m-auto w-full bg-white p-5 shadow-lg md:p-10">
+						<h2
+							class="mb-4 text-center font-outfit-bold text-xl md:mb-6 md:text-4xl"
+						>
+							RSVP
+						</h2>
 
-						<p class="font-outfit text-sm">
+						<p class="font-outfit text-sm md:text-lg xl:text-base">
 							Apakah anda bisa menghadiri pernikahan kami?
 						</p>
 						<div class="mt-2">
@@ -341,12 +389,12 @@
 								type="radio"
 								name="present"
 								id="yes"
-								class="peer/yes mr-2 accent-green-pastel"
+								class="peer/yes mr-2 cursor-pointer accent-green-pastel"
 								required
 							/>
 							<label
 								for="yes"
-								class="peer-checked/yes:text-black text-sm text-zinc-400 transition duration-500"
+								class="peer-checked/yes:text-black cursor-pointer text-sm text-zinc-400 transition duration-500 md:text-lg xl:text-base"
 							>
 								Bisa
 							</label>
@@ -357,43 +405,45 @@
 								type="radio"
 								name="present"
 								id="no"
-								class="peer/no mr-2 accent-green-pastel"
+								class="peer/no mr-2 cursor-pointer accent-green-pastel"
 								required
 							/>
 							<label
 								for="no"
-								class="peer-checked/no:text-black text-sm text-zinc-400 transition duration-500"
+								class="peer-checked/no:text-black cursor-pointer text-sm text-zinc-400 transition duration-500 md:text-lg xl:text-base"
 							>
 								Maaf tidak bisa
 							</label>
 
 							<br />
 
-							<div class="mt-7">
+							<!-- fullname input -->
+							<div class="mt-7 flex flex-col md:mt-10">
 								<label
 									for="fullname"
-									class="texl-xs font-outfit-semibold"
+									class="texl-xs font-outfit-semibold md:text-lg xl:mb-1 xl:text-base"
 									>Nama Panjang</label
 								>
 								<input
 									type="text"
 									id="fullname"
-									class="border-b-[1px] border-zinc-600 font-outfit text-sm outline-none transition valid:border-black focus:border-black"
+									class="border-b-[1px] border-zinc-600 font-outfit text-sm outline-none transition valid:border-black focus:border-black md:text-base"
 									required
 								/>
 							</div>
+
 							<div class="peer-checked/yes:block hidden">
-								<!-- sesi -->
-								<div class="mt-7">
+								<!-- session input -->
+								<div class="mt-7 flex flex-col md:mt-10">
 									<label
 										for="session"
-										class="texl-xs mb-1 inline-block font-outfit-semibold outline-none"
+										class="texl-xs mb-1.5 cursor-pointer font-outfit-semibold md:text-lg xl:text-base"
 										>Sesi</label
 									>
 									<select
 										name="session"
 										id="session"
-										class="rounded-md border-2 border-zinc-400 p-1 text-xs focus:border-zinc-900"
+										class="cursor-pointer rounded-md border-2 border-zinc-400 p-1 font-outfit text-xs outline-none focus:border-zinc-900 md:text-base"
 									>
 										<option value="" selected>
 											Akad Nikah dan Iring Iringan
@@ -402,11 +452,12 @@
 										<option value="">Iring Iringan saja</option>
 									</select>
 								</div>
-								<!-- phone -->
-								<div class="mt-7">
+
+								<!-- phone input -->
+								<div class="mt-7 flex flex-col md:mt-10">
 									<label
 										for="telephone"
-										class="texl-xs font-outfit-semibold"
+										class="texl-xs font-outfit-semibold md:text-lg xl:mb-1 xl:text-base"
 										>Nomer Telepon</label
 									>
 									<input
@@ -417,6 +468,19 @@
 									/>
 								</div>
 							</div>
+
+							<div class="mt-10 flex gap-3 md:mt-16 md:justify-center">
+								<button
+									class="w-full rounded-md border-2 border-green-pastel py-1.5 font-outfit-medium text-sm text-green-pastel md:w-1/3"
+								>
+									Reset
+								</button>
+								<button
+									class="w-full rounded-md bg-green-pastel py-1.5 font-outfit-medium text-sm text-white md:w-1/3"
+								>
+									Submit
+								</button>
+							</div>
 						</div>
 					</form>
 				</div>
@@ -424,11 +488,11 @@
 				<img
 					src="./asset/bg/splash-4.png"
 					alt=""
-					class="absolute left-0 -bottom-16 h-20 object-cover"
+					class="absolute left-0 -bottom-16 h-20 object-cover md:-bottom-32 md:h-52 xl:-bottom-44 xl:h-64"
 				/>
 				<div class="grid w-full place-items-center">
 					<h2
-						class="after:contents-[''] absolute -bottom-10 text-center font-rage-italic text-xl text-white after:-mt-1 after:block after:h-[2px] after:w-full after:bg-white"
+						class="after:contents-[''] absolute -bottom-10 text-center font-rage-italic text-xl text-white after:-mt-1 after:block after:h-[2px] after:w-full after:bg-white md:-bottom-16 md:text-3xl xl:-bottom-20 xl:text-4xl xl:after:h-[3px]"
 					>
 						Terima Kasih
 					</h2>
@@ -439,14 +503,16 @@
 		<!-- main end -->
 
 		<!-- footer start -->
-		<footer class="mt-40 px-7 py-3">
+		<footer class="mt-40 px-7 py-3 md:mt-60 xl:mt-96">
 			<figure>
 				<img
 					src="./asset/logo/logo-light-transparent.png"
 					alt="aCode logo"
-					class="m-auto w-1/2"
+					class="m-auto w-1/2 md:w-1/3 xl:w-1/5"
 				/>
-				<figcaption class="mt-3 text-center font-outfit-semibold text-xs">
+				<figcaption
+					class="mt-3 text-center font-outfit-semibold text-xs md:mt-5 md:text-sm xl:mt-6 xl:text-base"
+				>
 					Copyright 2022 &copy; All rights Reserved. Design by aCode
 				</figcaption>
 			</figure>
