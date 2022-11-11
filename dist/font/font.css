@@ -1,6 +1,1 @@
-@font-face {
-	font-family: "Rage Italic";
-	src: local("Rage Italic"), url("./fonts/RAGE_1.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
-}
+@font-face{font-family:"Rage Italic";src:local("Rage Italic"),url("./fonts/RAGE_1.woff") format("woff");font-weight:normal;font-style:normal;font-display:swap}
