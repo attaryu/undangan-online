@@ -1,4 +1,4 @@
-const target = new Date("Nov 25, 2022 09:00:00").getTime();
+const target = new Date("Nov 1, 2023 09:00:00").getTime();
 const timeElement = {
 	days: document.querySelector("#days"),
 	hours: document.querySelector("#hours"),
